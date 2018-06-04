@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="operation">
+        <h1>{{ operator1 + ' ' + operatorLabel + ' ' + operator2 }}</h1>
+    </div>
+
+
+    <div class="list-result">
+        <mat-grid-list cols="10" rowHeight="100px">
+            <mat-grid-tile *ngFor="let number of numbers" (click)="getNumber(number)" class="button-result" [style.background]="background">
+                <span class="number-list">{{number}}</span>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+</div>

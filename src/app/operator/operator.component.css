@@ -1,0 +1,28 @@
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.operation {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.operation h1 {
+    line-height: 200px;
+    font-size: 18vh;
+    border-style: solid;
+    border-width: 2px; 
+    margin: 0;
+}
+
+.button-result {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px; 
+    cursor: grab;
+}
+
+.number-list {
+    font-size: 30px;
+}
