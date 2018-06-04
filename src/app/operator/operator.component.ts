@@ -46,7 +46,7 @@ export class OperatorComponent implements OnInit {
         break;
     }
     
-    this.operatorLabel = this.operatorList[this.generateNumber(2)];
+    this.operatorLabel = this.operatorList[this.generateNumber(3)];
     console.log('result : ' + this.result);
 
   }
@@ -58,20 +58,16 @@ export class OperatorComponent implements OnInit {
   
   getNumber(number)
   {
-    let background = "";
     if(number === this.result)
     {
       console.log("ok");
-      background = "green";
-      console.log(background);
+      
       this.generateOperation();
 
     }
     else 
     {
       console.log("ko");
-      background = "red";
-      console.log(background);
     }
 
   }
